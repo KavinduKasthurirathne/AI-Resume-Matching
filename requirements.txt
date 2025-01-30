@@ -1,0 +1,5 @@
+pdfplumber
+streamlit
+google-generativeai
+google-generativeai
+sentence_transformers
