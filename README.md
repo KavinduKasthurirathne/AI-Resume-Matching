@@ -22,5 +22,25 @@ This is a web application built with Streamlit that allows users to upload resum
 ### Installation:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/ai-resume-matching.git
+   git clone https://github.com/KavinduKasthurirathne/AI-Resume-Matching.git
    cd ai-resume-matching
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+
+### How It Works
+1. **Resume Filter:**
+Upload multiple resumes (in PDF format).
+Provide a job description in the input box.
+The app will compare the resumes to the job description using a pre-trained Sentence Transformer model and return the top matching resumes based on cosine similarity.
+2. **Resume Analysis:**
+Upload a single resume (in PDF format).
+The app will summarize the resume using Google Gemini and extract key information, including skills, years of experience, and education.
+3. **Resume Chat:**
+Upload a single resume (in PDF format).
+You can interact with the resume by typing in questions about its content, and Google Gemini will respond with relevant information.
